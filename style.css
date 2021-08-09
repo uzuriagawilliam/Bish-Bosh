@@ -1,0 +1,53 @@
+.headerDiv { 
+  padding-top: 3rem;  
+  background-color: #B1B1B1;    
+  text-align: center;
+  vertical-align: middle;
+  height: 8rem;
+  width: 80rem;  
+  margin: auto;
+  color: #BDD8DA;
+}
+#div2 {
+    margin-top: 1rem;
+    min-height: 6rem;    
+  }
+  .bisBoshBody {
+    font-family:  Verdana, Geneva, sans-serif; font-size: 16px; font-style: normal;
+     font-variant: normal; font-weight: 500; line-height: 26.4px;
+  }
+  .footerDiv{
+    margin: auto;
+    padding-top: 0em;
+    text-align: center;
+    width: 80rem;
+    height: 2rem;
+    font-size: 14px;
+    background-color: #BDD8DA;  
+  }
+  .center {
+    margin: auto;
+    width: 79rem;   
+    padding-top: 0em;   
+  }
+  .mainDiv{
+    margin: auto;
+    width: 80rem;
+    background-color: #DFEFF0;   
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: ". .";
+    padding: 1rem;
+  }
+  .bisboshInput{
+    width: 25rem;
+  }
+  .bishboshOuput{
+    width: 54rem;
+  }
+  
